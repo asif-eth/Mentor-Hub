@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.header {
+    display: inline-flex;
+    align-items: center;
+    gap: 342px;
+    width: 1323px;
+    height: 62px;
+    margin-top: 11px;
+    z-index: 1;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 347px;
+    width: 868px;
+    height: 44px;
+}
+
+.header__menu-items {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    width: 392px;
+    height: 44px;
+}
+
+.header__menu-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+    color: #00487C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    list-style: none;
+}
+
+.header__signup-button {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 16px;
+    background: #FFF;
+    border: none;
+}
+
+.button__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.button__text {
+    display: inline-block;
+    white-space: nowrap;
+    color: #00A896;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
