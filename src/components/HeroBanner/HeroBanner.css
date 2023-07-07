@@ -53,6 +53,7 @@
 }
 
 .hero__primaryBtn {
+    cursor: pointer;
     color: #FFF;
     margin-top: 62px;
     font-family: Poppins;
@@ -70,6 +71,7 @@
 }
 
 .hero__secondaryBtn {
+    cursor: pointer;
     display: flex;
     padding: 26px 31px;
     align-items: center;

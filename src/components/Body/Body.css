@@ -43,6 +43,7 @@
 }
 
 .bodytextArea-Btn {
+    cursor: pointer;
     display: flex;
     padding: 26px 31px;
     align-items: center;

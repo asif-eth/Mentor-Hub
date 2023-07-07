@@ -19,6 +19,7 @@
 }
 
 .header__menu-items {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 19px;
@@ -42,6 +43,7 @@
 }
 
 .header__signup-button {
+    cursor: pointer;
     display: flex;
     padding: 10px 20px;
     justify-content: center;

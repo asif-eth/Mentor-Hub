@@ -99,6 +99,7 @@
 }
 
 .explore__bodyContent-Btn {
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 26px 60px;
