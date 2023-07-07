@@ -48,7 +48,6 @@
 .hero__buttons {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
     gap: 60px;
 }
 
