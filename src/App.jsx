@@ -1,6 +1,7 @@
 
 import './App.css'
 import Body from './components/Body/Body'
+import Explore from './components/Explore/Explore'
 import Home from './components/Home/Home'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <Home />
     <Body />
+    <Explore />
     </>
   )
 }

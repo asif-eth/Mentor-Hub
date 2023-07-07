@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.explore__body {
+    background-color: #F5F5F5;;
+    height: auto;
+}
+
+.explore__bodyContents {
+    display: flex;
+    padding: 60px 140px;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #FFF;
+    align-items: center;
+}
+
+.explore__bodyContents-header {
+    display: flex;
+    width: 100%;
+    color: #292F36;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.96px;
+    justify-content: center;
+}
+
+.explore__containers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.explore__containers h3 {
+    display: flex;
+    width: 271px;
+    justify-content: center;
+    color: #00487C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    margin-bottom: 24px;
+}
+
+.explore__containers p {
+    display: flex;
+    width: 358px;
+    justify-content: center;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+.explore__subContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore__subContainer-Btn {
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #00487C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    margin-top: 24px;
+    background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+}
+
+.explore__subContainer-Btn__Vector {
+    width: 15.141px;
+    height: 13.177px;
+    stroke-width: 2px;
+    stroke: #00A896;
+}
+
+.explore__bodyContent-Btn {
+    display: flex;
+    align-items: center;
+    padding: 26px 60px;
+    border-radius: 18px;
+    background: #00487C;
+    gap: 10px;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    border: none;
+}
+
+.explore__bodyContent-Btn__Vector {
+    width: 15.141px;
+    height: 13.177px;
+    stroke-width: 4px;
+    stroke: #00A896;
+}
