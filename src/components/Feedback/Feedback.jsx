@@ -41,7 +41,7 @@ const Feedback = () => {
                 <p>friendly design and comprehensive</p>
                 <p>profile customization options have</p>
                 <p>allowed me to showcase my expertise and</p>
-                <p>build credibility with mentees”</p>
+                <p>build credibility with mentees.”</p>
               </div>
             </div>
 
