@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+.body {
+    background-color: #F5F5F5;
+    height: auto;
+}
+
+.body__contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.body__textArea-header {
+    color: #292F36;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.96px;
+}
+
+.body__textArea-body {
+    color: #1E1E1E;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.body__imageArea {
+    position: relative;
+    object-fit: cover;
+    border-radius: 0 50% 0 20%
+}
+
+.bodytextArea-Btn {
+    display: flex;
+    padding: 26px 31px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 18px;
+    background: var(--blue, #00487C);
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    border: none;
+}
+
+.bodytextArea-Btn Svg {
+    width: 15.141px;
+    height: 13.177px;
+    stroke-width: 4px;
+    stroke: #00A896;
+}

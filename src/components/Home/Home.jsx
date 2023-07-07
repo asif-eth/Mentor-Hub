@@ -1,4 +1,5 @@
 import React from 'react'
+import Body from '../Body/Body'
 import Header from '../Header/Header'
 import HeroBanner from '../HeroBanner/HeroBanner'
 import "./Home.css"
