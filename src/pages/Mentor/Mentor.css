@@ -1,0 +1,75 @@
+
+.mentorPage__mainHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.mentor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.mentorPageHead {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.mentorContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mentorImg img {
+    height: 450px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.mentorName {
+    color: #00487C;
+    margin-top: 17px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.mentorRole {
+    color: #00A896;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.mentorSocials {
+    margin-top: 17px;
+    display: flex;
+    gap: 20px;
+}
+
+.mentorSocials img {
+    height: 15px;
+}
+
+.mentorPage__header {
+    color: #292F36;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.96px;
+}
+
+.mentorPage__footer {
+    margin-top: 100px;
+}

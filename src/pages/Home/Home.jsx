@@ -1,7 +1,6 @@
 import React from 'react'
-import Body from '../Body/Body'
-import Header from '../Header/Header'
-import HeroBanner from '../HeroBanner/HeroBanner'
+import Header from '../../components/Header/Header'
+import HeroBanner from '../../components/HeroBanner/HeroBanner'
 import "./Home.css"
 
 const Home = () => {

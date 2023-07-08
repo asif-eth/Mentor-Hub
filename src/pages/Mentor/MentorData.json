@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Shalini",
+        "role": "Software Developer",
+        "img": "/public/mentorShalini.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Rekha Sekar",
+        "role": "Manager",
+        "img": "/public/mentorRekha.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Deepak",
+        "role": "UX Designer",
+        "img": "/public/mentorDeepak.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Naveen",
+        "role": "Architect",
+        "img": "/public/mentorNaveen.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Sofia",
+        "role": "Business Strategist",
+        "img": "/public/mentorSofia.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Madhumita",
+        "role": "Content Writer",
+        "img": "/public/mentorMadhumita.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Nirmal",
+        "role": "Electrical Engineer",
+        "img": "/public/mentorNirmal.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    },
+    {
+        "name": "Lokesh",
+        "role": "Software Engineer",
+        "img": "/public/mentorLokesh.jpeg",
+        "faceBookIcon": "/public/faceBookLogo.svg",
+        "twitterIcon": "/public/twitterLogo.svg",
+        "linkedInIcon": "/public/linkedinLogo.svg"
+    }
+]

@@ -1,17 +1,25 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./Header.css"
 
 const Header = () => {
+
+  const navigate = useNavigate();
+
   return (
     <>
       <header className="header">
-        <img className="header__logo" src="/Rectangle 3.jpg" alt="Mentor Hub Logo" />
+        <img className="header__logo" onClick={()=>navigate("/")} src="/Rectangle 3.jpg" alt="Mentor Hub Logo" />
         <nav className="header__menu">
           <div className="header__menu-items">
             <ul className="header__menu-item">
-              <li>Home</li>
+              <li onClick={()=>navigate("/")}>
+                Home
+              </li>
               <li>About Us</li>
-              <li>Mentors</li>
+              <li onClick={()=>navigate("/mentor")}>
+                Mentors
+              </li>
               <li>Sessions</li>
             </ul>
           </div>

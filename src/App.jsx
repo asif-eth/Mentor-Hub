@@ -5,19 +5,19 @@ import Community from './components/Community/Community'
 import Explore from './components/Explore/Explore'
 import Feedback from './components/Feedback/Feedback'
 import Footer from './components/Footer/Footer'
-import Home from './components/Home/Home'
+import Home from './pages/Home/Home'
+import Mentor from './pages/Mentor/Mentor'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
-    <>
-    <Home />
-    <Body />
-    <Explore />
-    <Community />
-    <Feedback />
-    <Footer />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={[<Home />, <Body /> , <Explore />, <Community />, <Feedback />, <Footer />]} />
+      <Route path='/mentor' element={<Mentor />} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 
