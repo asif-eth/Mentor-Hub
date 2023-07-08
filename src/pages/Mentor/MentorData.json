@@ -2,7 +2,7 @@
     {
         "name": "Shalini",
         "role": "Software Developer",
-        "img": "/public/mentorShalini.jpeg",
+        "img": "/mentorShalini.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
@@ -10,15 +10,15 @@
     {
         "name": "Rekha Sekar",
         "role": "Manager",
-        "img": "/public/mentorRekha.jpeg",
+        "img": "/mentorRekha.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
-        "linkedInIcon": "/pinkedinLogo.svg"
+        "linkedInIcon": "/linkedinLogo.svg"
     },
     {
         "name": "Deepak",
         "role": "UX Designer",
-        "img": "/public/mentorDeepak.jpeg",
+        "img": "/mentorDeepak.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
@@ -26,7 +26,7 @@
     {
         "name": "Naveen",
         "role": "Architect",
-        "img": "/public/mentorNaveen.jpeg",
+        "img": "/mentorNaveen.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
@@ -34,7 +34,7 @@
     {
         "name": "Sofia",
         "role": "Business Strategist",
-        "img": "/public/mentorSofia.jpeg",
+        "img": "/mentorSofia.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
@@ -42,7 +42,7 @@
     {
         "name": "Madhumita",
         "role": "Content Writer",
-        "img": "/public/mentorMadhumita.jpeg",
+        "img": "/mentorMadhumita.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
@@ -50,7 +50,7 @@
     {
         "name": "Nirmal",
         "role": "Electrical Engineer",
-        "img": "/public/mentorNirmal.jpeg",
+        "img": "/mentorNirmal.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
@@ -58,7 +58,7 @@
     {
         "name": "Lokesh",
         "role": "Software Engineer",
-        "img": "/public/mentorLokesh.jpeg",
+        "img": "/mentorLokesh.jpeg",
         "faceBookIcon": "/faceBookLogo.svg",
         "twitterIcon": "/twitterLogo.svg",
         "linkedInIcon": "/linkedinLogo.svg"
