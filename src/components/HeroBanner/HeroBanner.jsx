@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./HeroBanner.css"
 
 const HeroBanner = () => {
+
+  const navigate = useNavigate();
+
   return (
     <>
       <main className="hero__mainSection">
@@ -11,7 +15,7 @@ const HeroBanner = () => {
           <p>others to thrive"</p>
         </div>
         <div className="hero__buttons">
-          <button className="hero__primaryBtn">Get Started as a Mentor <img src="/hero__primaryBtnVector.svg" alt="" /></button>
+          <button className="hero__primaryBtn" onClick={() => {navigate("/form")}} >Get Started as a Mentor <img src="/hero__primaryBtnVector.svg" alt="" /></button>
           <button className="hero__secondaryBtn">Learn More <img src="/hero__secondaryBtnVector.svg" alt="" /></button>
         </div>
       </main>

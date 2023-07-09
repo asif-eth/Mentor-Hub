@@ -1,0 +1,196 @@
+
+.formPage__mainHeader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+
+.formBody {
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.formInput {
+    border-radius: 16px;
+    border: 0.5px solid #00A896;
+    background: #FFF;
+    padding: 30px 20px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.formInput::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    padding: 10px;
+}
+
+.formInput[type="date"]::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.formLabel {
+    margin-bottom: 30px;
+}
+
+.formLabel {
+    color: #00487C;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    margin: 30px 0px;
+}
+
+.form__containerTop {
+    display: flex;
+    align-items: flex-start;
+}
+
+.formLeftSection,
+.formRightSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formUploadImg {
+    border-radius: 16px;
+}
+
+.formLeftSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.formRightSection {
+    margin-top: 115px;
+}
+
+.formUploadImgBtn {
+    color: #00487C;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.expertise_options-style {
+    border-radius: 16px;
+    border: 0.5px solid #00A896;
+    background: #FFF;
+    width: 500px;
+    height: 90px;
+    cursor: pointer;
+}
+
+select option:disabled {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.expertise__options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textWritingArea {
+    border-radius: 30px;
+    padding: 30px;
+    resize: none;
+    width: 100%;
+    height: 230px;
+}
+
+.formInputs input {
+    font-size: 30px;
+}
+
+.registerButton {
+    display: inline-flex;
+    padding: 26px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 18px;
+    background: #00487C;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    cursor: pointer;
+}
+
+.registerBtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.textWritingArea {
+    font-size: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+input[type=date]::-webkit-datetime-edit-month-field {
+    -webkit-appearance: none;
+    color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    color: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}

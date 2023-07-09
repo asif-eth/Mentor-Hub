@@ -16,20 +16,22 @@ const Mentor = () => {
       </div>
 
       <div className="mentorContainer">
-        {MentorData.map((mentor) => (
-          <div className="mentor">
-            <div className="mentorImg">
-              <img src={mentor.img} alt={mentor.name} />
+        {MentorData.map((mentor, index) => {
+          return (
+            <div className="mentor" key={index}>
+              <div className="mentorImg">
+                <img src={mentor.img} alt={mentor.name} />
+              </div>
+              <div className="mentorName">{mentor.name}</div>
+              <div className="mentorRole">{mentor.role}</div>
+              <div className="mentorSocials">
+                <img src="/faceBookLogo.svg" alt="FaceBook" />
+                <img src="/twitterLogo.svg" alt="Twitter" />
+                <img src="/linkedinLogo.svg" alt="LinkedIn" />
+              </div>
             </div>
-            <div className="mentorName">{mentor.name}</div>
-            <div className="mentorRole">{mentor.role}</div>
-            <div className="mentorSocials">
-              <img src="/faceBookLogo.svg" alt="FaceBook" />
-              <img src="/twitterLogo.svg" alt="Twitter" />
-              <img src="/linkedinLogo.svg" alt="LinkedIn" />
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       <div className="mentorPage__footer">
