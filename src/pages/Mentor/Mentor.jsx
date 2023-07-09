@@ -16,13 +16,13 @@ const Mentor = () => {
       </div>
 
       <div className="mentorContainer">
-        {MentorData.map((mentors) => (
+        {MentorData.map((mentor) => (
           <div className="mentor">
             <div className="mentorImg">
-              <img src={mentors.img} alt={mentors.name} />
+              <img src={mentor.img} alt={mentor.name} />
             </div>
-            <div className="mentorName">{mentors.name}</div>
-            <div className="mentorRole">{mentors.role}</div>
+            <div className="mentorName">{mentor.name}</div>
+            <div className="mentorRole">{mentor.role}</div>
             <div className="mentorSocials">
               <img src="/faceBookLogo.svg" alt="FaceBook" />
               <img src="/twitterLogo.svg" alt="Twitter" />
