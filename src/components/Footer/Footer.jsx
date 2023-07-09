@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="footer__pages">
               <ul>
                 <li>About Us</li>
-                <li onClick={() => navigate("/mentor")}>Mentors</li>
+                <li onClick={() => navigate("/Mentor")}>Mentors</li>
                 <li>Sessions</li>
                 <li>Sign up</li>
               </ul>
