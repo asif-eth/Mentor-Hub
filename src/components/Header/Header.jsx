@@ -17,7 +17,7 @@ const Header = () => {
                 Home
               </li>
               <li>About Us</li>
-              <li onClick={()=>navigate("/Mentor")}>
+              <li onClick={()=>navigate("/mentor")}>
                 Mentors
               </li>
               <li>Sessions</li>
