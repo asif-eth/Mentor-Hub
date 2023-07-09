@@ -3,3 +3,4 @@ INSTRUCTIONS
 1. this website is created with vite
 2. to run this locally you can use the terminal and type "npm run dev" in it
 3. this will provide you a localhost link, which you can press and see my project in your localhost
+4. this project is also deployed on vercel you can copy paste the given link to open it in your browser LINK - https://mentor-hub.vercel.app/
