@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={[<Home />, <Body /> , <Explore />, <Community />, <Feedback />, <Footer />]} />
-      <Route path='/Mentor' element={<Mentor />} />
+      <Route path="/Mentor" element={<Mentor />} />
     </Routes>
     </BrowserRouter>
   )
