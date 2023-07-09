@@ -24,9 +24,9 @@ const Mentor = () => {
             <div className="mentorName">{mentor.name}</div>
             <div className="mentorRole">{mentor.role}</div>
             <div className="mentorSocials">
-              <img src="/public/faceBookLogo.svg" alt="FaceBook" />
-              <img src="/public/twitterLogo.svg" alt="Twitter" />
-              <img src="/public/linkedinLogo.svg" alt="LinkedIn" />
+              <img src="/faceBookLogo.svg" alt="FaceBook" />
+              <img src="/twitterLogo.svg" alt="Twitter" />
+              <img src="/linkedinLogo.svg" alt="LinkedIn" />
             </div>
           </div>
         ))}
