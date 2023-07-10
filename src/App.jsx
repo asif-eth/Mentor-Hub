@@ -7,7 +7,7 @@ import Feedback from './components/Feedback/Feedback'
 import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Mentor from './pages/Mentor/Mentor'
-import { HashRouter, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Form from './components/Form/Form'
 
 function App() {
